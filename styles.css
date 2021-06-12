@@ -1,5 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Solway:wght@500&display=swap');
 
+:root{
+    --primary-color:black;
+    --secondary-color:white;
+    --button-color:rgb(0, 0, 255);
+}
+
 *{
     box-sizing: border-box;
+    font-family: Solway;
+}
+
+body{
+    background-color:var(--primary-color) ;
+    
+    color: var(--secondary-color);
+    margin: 0;
+}
+
+nav{
+    
+    background-color: var(--button-color);
+    text-align: center;
+    height: 20%;
+}
+
+nav .heading{
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+main{
+    max-width: 960px;
+    padding: 1rem;
+    margin: auto;
+}
+
+textarea{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    background: var(--button-color);
+    color: var(--secondary-color);
+    font-size: large;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+}
+
+img{
+    size: 100px;
+}
+.output{
+    border-style: solid;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    display: block;
+    margin-top: 0;
+    padding: 1rem;
+    font-size: large;
+    background-color:var(--secondary-color) ;
+    color: var(--primary-color);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    text-align: center;
+    background-color:var(--button-color);
+}
+
+footer p {
+    margin: auto;
+    max-width: 960px;
+    
+    color: var(--secondary-color);
+}
+
+h2 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
