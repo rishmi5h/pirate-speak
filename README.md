@@ -11,7 +11,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/rishimish/piratespeak">
+    <a href="https://github.com/rishimish/pirate-speak">
       Solution
     </a>
     <span> | </span>
