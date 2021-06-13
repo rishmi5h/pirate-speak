@@ -35,7 +35,7 @@
 - HTML5
 - CSS
 - JavaScript
-- [Funtranslation-minion-api](https://funtranslations.com/pirate)
+- [Funtranslation-pirate-api](https://funtranslations.com/pirate)
 
 ## Features
 
